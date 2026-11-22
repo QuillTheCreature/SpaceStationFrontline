@@ -1,0 +1,123 @@
+[log]
+path = "logs"
+format = "log_%(date)s-%(time)s.txt"
+level = 2
+enabled = false
+
+[net]
+tickrate = 30
+max_connections = 120 # Absolute maximum allowed connections to the server
+lidgren_log_warning = false
+lidgren_log_error = false
+log_late_msg = false
+
+[status]
+enabled = true
+privacy_policy_link = "" # Todo
+privacy_policy_identifier = "frontline"
+privacy_policy_version = "2026-22-11"
+
+[server]
+rules_file = "FrontlineRuleset"
+id = "Frontline"
+
+[events]
+enabled = false
+
+[auth]
+mode = 1
+
+[hub]
+advertise = false
+advertise_interval = 30
+hub_urls = "https://hub.spacestation14.com"
+
+[game]
+desc = "A PvP focused server with classic gamemodes like free for all, team deathmatch, capture the flag, search and destroy and so on (Heavily experimental and work in progress)"
+
+# Lobby/Character Control
+lobbyduration = 120
+role_timers = false
+maxcharacterslots = 30
+soft_max_players = 60
+
+contraband_examine = false
+showgreentext = false
+
+# Defaults and other CVars
+defaultpreset = "Deathmatch"
+round_restart_time = 30
+table_bonk = false
+round_end_pvs_overrides = false
+
+[infolinks]
+# appeal = ""
+bug_report = "https://github.com/QuillTheCreature/SpaceStationFrontline/issues"
+# discord = ""
+# forum = ""
+github = "https://github.com/QuillTheCreature/SpaceStationFrontline"
+# patreon = ""
+# website = ""
+# wiki = ""
+
+[admin]
+see_own_notes = true
+deadmin_on_join = true
+new_player_threshold = 600
+alert.min_players_sharing_connection = 2
+admins_count_for_max_players = false
+admins_count_in_playercount = false
+
+[adminlogs]
+enabled = true
+
+[ban]
+hardware_ids = true
+
+[rules]
+exempt_local = true
+time = 60
+
+[vote]
+enabled = true
+map_enabled = true
+preset_enabled = true
+restart_enabled = false
+restart_ghost_percentage = 60
+restart_max_players = 40
+restart_not_allowed_when_admin_online = false
+same_type_timeout = 300
+
+[console]
+login_host_user = "Quill"
+loginlocal = true
+
+[shuttle]
+arrivals_planet = false
+arrivals = false
+emergency = false
+grid_fill = false
+auto_call_time = 0
+preload_grids = false
+
+[movement]
+mob_pushing = false
+
+[chat]
+show_typing_indicator = true
+
+[ic]
+flavor_text = true
+flavor_text_length = 1024
+id_job_length = 36
+punctuation = true
+
+[ooc]
+enable_during_round = true
+
+[looc]
+enabled_dead = true
+enabled_crit = true
+
+[atmos]
+max_explosion_range = 0

@@ -1,0 +1,10 @@
+# Our EU server
+
+[game]
+hostname = "[Frontline] Space Station: Frontline EUW"
+
+[hub]
+tags = "lang:en,rp:none,region:eu_w" # You can find a list of all tags @ https://docs.spacestation14.com/en/robust-toolbox/server-http-api.html#standard-tags
+
+[adminlogs]
+server_name = "Frontline EUW"

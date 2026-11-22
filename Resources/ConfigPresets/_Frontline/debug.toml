@@ -1,0 +1,7 @@
+# This changes some values for dev sessions.
+
+[game]
+hostname = "[Frontline] Space Station: Frontline Dev Env"
+
+[ic]
+random_characters = false

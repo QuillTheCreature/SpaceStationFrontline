@@ -1,1 +1,3 @@
-﻿
+﻿# This makes sure our core cvars get set even for development sessions
+[config]
+presets = "_Frontline/core,_Frontline/debug"
